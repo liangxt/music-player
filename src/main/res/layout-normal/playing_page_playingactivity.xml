@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="ui.PlayingActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/playing"
+        android:id="@+id/textView"
+        android:layout_below="@+id/section_label"
+        android:layout_toEndOf="@+id/section_label"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="81dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/header_height"
+        android:textSize="@dimen/header_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/playing"
+        android:id="@+id/textView3"
+        android:background="@color/gray"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:layout_alignTop="@+id/section_label"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

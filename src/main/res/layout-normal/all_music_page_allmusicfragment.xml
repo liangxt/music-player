@@ -1,0 +1,110 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ui.main_page.all_music_page.AllMusicFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@color/black">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:baselineAligned="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true">
+
+            <FrameLayout
+                android:id="@+id/allMusicTitleLayout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:paddingTop="3dp"
+                android:paddingBottom="2dp"
+                android:background="@color/fragment_blue" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="13sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/allMusicArtistLayout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:paddingTop="3dp"
+                android:paddingBottom="2dp"
+                android:background="@color/fragment_gray" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/artist"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="13sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/allMusicAlbumLayout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:paddingTop="3dp"
+                android:paddingBottom="2dp"
+                android:background="@color/fragment_gray" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/album"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="13sp" />
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="49dp"
+                android:layout_height="49dp"
+                android:id="@+id/settingsView"
+                android:src="@drawable/setting_icon"
+                android:contentDescription="@string/setting_icon" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/import_my_songs"
+            android:id="@+id/import_my_songs"
+            android:layout_marginTop="34dp"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:id="@+id/allMusicSubContent">
+
+    </FrameLayout>
+</FrameLayout>

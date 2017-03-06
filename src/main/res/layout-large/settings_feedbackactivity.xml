@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height_large"
+        android:layout_alignParentTop="true"
+        android:background="@color/gray"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/fbheader"
+            android:textColor="@color/white"
+            android:textSize="@dimen/header_text_large" />
+    </RelativeLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="70dp"
+        android:layout_below="@+id/header"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="92dp">
+
+        <TableRow>
+
+            <TextView
+                android:textSize="@dimen/text_large"
+                android:id="@+id/fbtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:textColor="@color/black"
+                android:id="@+id/fbtitle_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/input_hight_large"
+                android:background="@color/white"
+                android:ems="18" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:textSize="@dimen/text_large"
+                android:id="@+id/fbcontent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/content"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:textColor="@color/black"
+                android:id="@+id/fbcontent_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/input_hight_large"
+                android:background="@color/white"
+                android:ems="18" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:textSize="@dimen/text_large"
+                android:id="@+id/fbemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_email"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:textColor="@color/black"
+                android:id="@+id/fbemail_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/input_hight_large"
+                android:background="@color/white"
+                android:ems="18" />
+
+        </TableRow>
+    </TableLayout>
+
+
+    <Button
+        android:id="@+id/fbsend"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:textSize="@dimen/button_large"
+        android:background="@color/gray"
+        android:text="@string/send"
+        android:textColor="@color/white"
+        android:layout_alignTop="@+id/fbcancel"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="89dp" />
+
+    <Button
+        android:id="@+id/fbcancel"
+        android:textSize="@dimen/button_large"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:background="@color/gray"
+        android:text="@string/cancel"
+        android:textColor="@color/white"
+        android:layout_marginStart="117dp"
+        android:layout_marginBottom="218dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/fbsend" />
+
+
+</RelativeLayout>

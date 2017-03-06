@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height_large"
+        android:layout_alignParentTop="true"
+        android:background="@color/gray"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/apheader"
+            android:textColor="@color/white"
+            android:textSize="@dimen/header_text_large" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:id="@+id/pa_relativeLayout">
+        <ImageButton
+            android:id="@+id/apphoto"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/photo" />
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/apok">
+
+        <TableRow>
+
+            <TextView
+                android:textSize="@dimen/text_large"
+                android:id="@+id/apname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="@string/name"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/apname_edit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/input_hight_large"
+                android:background="@color/white"
+                android:ems="15"
+                android:inputType="text"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:textSize="@dimen/text_large"
+                android:id="@+id/appassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="31dp"
+                android:text="@string/password"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:layout_height="@dimen/input_hight_large"
+                android:textColor="@color/black"
+                android:id="@+id/appassword_edit"
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:inputType="textPassword" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:textSize="@dimen/text_large"
+                android:id="@+id/apconfirmpassword"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="@string/confirmpassword"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:textColor="@color/black"
+                android:layout_height="@dimen/input_hight_large"
+                android:id="@+id/apconfirmpassword_edit"
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:inputType="textPassword" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:textSize="@dimen/text_large"
+                android:id="@+id/apemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:textColor="@color/black"
+                android:layout_height="@dimen/input_hight_large"
+                android:id="@+id/apemail_edit"
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:inputType="textEmailAddress" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:textSize="@dimen/text_large"
+                android:id="@+id/apwhatsup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/whatsup"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:textColor="@color/black"
+                android:layout_height="@dimen/input_hight_large"
+                android:id="@+id/apwhatsup_edit"
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:inputType="text" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/apok"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:textSize="@dimen/button_large"
+        android:background="@color/light_gray"
+        android:text="@string/ok"
+        android:textColor="@color/white"
+        android:layout_alignTop="@+id/apcancel"
+        android:layout_toStartOf="@+id/pa_relativeLayout" />
+
+    <Button
+        android:id="@+id/apcancel"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:textSize="@dimen/button_large"
+        android:layout_marginBottom="67dp"
+        android:background="@color/light_gray"
+        android:text="@string/cancel"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/pa_relativeLayout" />
+
+
+
+</RelativeLayout>

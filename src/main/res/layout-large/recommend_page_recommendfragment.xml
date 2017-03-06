@@ -1,0 +1,91 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main_page.recommend_page.RecommendFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/black" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:baselineAligned="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" >
+
+            <FrameLayout
+                android:id="@+id/recommendTitleLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/header_height_large"
+                android:layout_weight="1"
+                android:paddingTop="3dp"
+                android:paddingBottom="2dp"
+                android:background="@color/fragment_blue" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/header_text_large" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/recommendArtistLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/header_height_large"
+                android:layout_weight="1"
+                android:paddingTop="3dp"
+                android:paddingBottom="2dp"
+                android:background="@color/fragment_gray" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/artist"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/header_text_large" />
+
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="@dimen/header_height_large"
+                android:layout_height="@dimen/header_height_large"
+                android:id="@+id/settingsView"
+                android:src="@drawable/setting_icon" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height_large"
+            android:text="@string/recommendForMe"
+            android:textSize="20sp"
+            android:id="@+id/recommendButton"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="61dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recommendSubContent"
+            android:layout_below="@+id/recommendButton"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+        </FrameLayout>
+
+    </RelativeLayout>
+</FrameLayout>

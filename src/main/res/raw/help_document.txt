@@ -1,0 +1,15 @@
+The PlaymySong project aims to develop a music player application. Users can not only listen to music but also explore music world and have a brand-new listening experience.
+
+The PlaymySong has following features:
+
+1.Sign in & Sign up. User can select to sign in or sign up from the cover page. Creating account helps user to obtain account information in other devices.
+
+2.Import songs. User can import songs from his/her local directory. After importation, all songs and categories display in the main page. User can create a new category and click a song's name to listen or write comments.
+
+3.Play songs. In this page, the lyric appears on the screen. User can click different buttons to play, stop, pause or change songs. The process bar and volume bar can also be adjusted. If the user loves the playing song, he/she can add it to favorite list which can be accessed from other devices.
+
+4.Explore hottest songs. After clicking the Hot page button, user can explore the hottest song by opening billboard app or billboard web page in browser automatically.
+
+5.Recommendation. PlaymySong app can recommend songs to users according to their recent played lists and favorite songs lists.
+
+6.Settings. In this page, user can view and change account information, obtain helping information and write feedback to developers.

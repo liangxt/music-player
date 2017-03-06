@@ -1,0 +1,149 @@
+<div class="chart-row__main-display">
+
+        <div class="chart-row__rank">
+            <span class="chart-row__current-week">8</span>
+                         <span class="chart-row__last-week">Last Week: 6</span>
+                    </div>
+
+            <div class="chart-row__image"
+                                                            style="background-image: url(http://www.billboard.com/images/pref_images/q38875uo1kh.jpg)"
+                                    >
+            </div>
+
+            <div class="chart-row__container">
+
+                <div class="chart-row__title">
+                                            <h2 class="chart-row__song">Love Yourself</h2>
+                                                                                            <a class="chart-row__artist" href="http://www.billboard.com/artist/305459/justin-bieber" data-tracklabel="Artist Name">
+                                Justin Bieber
+                            </a>
+                                                            </div>
+
+                                    <a href="#" class="chart-row__play-button js-spotify-preview is-unprocessed">
+                        <i class="chart-row__player-icon fa js-play-button"></i>
+                    </a>
+                            </div>
+
+            <div class="chart-row__links">
+
+                                    <a class="chart-row__link chart-row__link--toggle js-chart-row-toggle" href="javascript:void(0);">
+                        <i class="chart-row__icon fa fa-angle-down"></i>
+                    </a>
+                
+                
+                                    <a href="javascript:void(0);" data-href="http://open.spotify.com/track/3hB5DgAiMAQ4DzYbsMq1IT" class="chart-row__link chart-row__link--spotify js-spotify-play-full" target="_blank" data-trackaction="Full Track Link - Spotify" data-tracklabel="Love Yourself">
+                        <i class="chart-row__icon fa fa-spotify"></i> Full Track
+                    </a>
+                            </div>
+        </div>
+    </div>
+
+        <div id="chart-row-8-secondary" class="chart-row__secondary">
+        <div class="chart-row__stats">
+            <div class="chart-row__last-week">
+                <span class="chart-row__label">Last Week</span>
+                <span class="chart-row__value">6</span>
+            </div>
+            <div class="chart-row__top-spot">
+                    <span class="chart-row__label">Peak Position</span>
+                <span class="chart-row__value">1</span>            </div>
+            <div class="chart-row__weeks-on-chart">
+                <span class="chart-row__label">Wks on Chart</span>
+                <span class="chart-row__value">22</span>            </div>
+        </div>
+        <aside class="social-shares">
+            <p class="social-shares-text">Share the Song</p>
+        <a class="social-share social-share-facebook" rel="popup" data-width="400" data-height="450" data-tracklabel="Facebook-share" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.billboard.com%2Fcharts%2Fhot-100%23row-8">
+        <i class="fa fa-facebook"></i>
+    </a>
+    <a class="social-share social-share-twitter" rel="popup" data-width="400" data-height="450" data-tracklabel="Twitter-share" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.billboard.com%2Fcharts%2Fhot-100%23row-8&via=billboard&text=Love%20Yourself%20on%20The%20Hot%20100">
+        <i class="fa fa-twitter"></i>
+    </a>
+</aside>
+    </div>
+    </article>
+            
+            
+                                                                                    	
+                                        
+<article class="chart-row chart-row--9 js-chart-row" data-hovertracklabel="Song Hover-Cake By The Ocean" data-songtitle="" data-spotifyType="track" data-spotifyUri="track:7L5jgZtAyfiU7elB8DIqCx" data-spotifyId="7L5jgZtAyfiU7elB8DIqCx">
+    <div class="chart-row__primary">
+        <div class="chart-row__history chart-row__history--rising"></div>
+
+        
+        
+                    <div class="chart-row__bullet"><i class="chart-row__icon fa fa-dot-circle-o"></i></div>
+        
+
+        <div class="chart-row__main-display">
+
+        <div class="chart-row__rank">
+            <span class="chart-row__current-week">9</span>
+                         <span class="chart-row__last-week">Last Week: 12</span>
+                    </div>
+
+            <div class="chart-row__image"
+                                                            style="background-image: url(http://www.billboard.com/images/pref_images/q48334fxy03.jpg)"
+                                    >
+            </div>
+
+            <div class="chart-row__container">
+
+                <div class="chart-row__title">
+                                            <h2 class="chart-row__song">Cake By The Ocean</h2>
+                                                                                            <a class="chart-row__artist" href="http://www.billboard.com/artist/6708267/dnce" data-tracklabel="Artist Name">
+                                DNCE
+                            </a>
+                                                            </div>
+
+                                    <a href="#" class="chart-row__play-button js-spotify-preview is-unprocessed">
+                        <i class="chart-row__player-icon fa js-play-button"></i>
+                    </a>
+                            </div>
+
+            <div class="chart-row__links">
+
+                                    <a class="chart-row__link chart-row__link--toggle js-chart-row-toggle" href="javascript:void(0);">
+                        <i class="chart-row__icon fa fa-angle-down"></i>
+                    </a>
+                
+                                    <a class="chart-row__link chart-row__link--video js-chart-row-vevo" title="Vevo" href="javascript:void(0);" data-href="http://cache.vevo.com/assets/html/embed.html?video=USUV71502668&partnerId=0bcf11f5-81bc-469a-a74f-b370f19def6e&siteSection=billboard_billboard.com" data-tracklabel="Watch-Cake By The Ocean">
+                        <i class="chart-row__icon fa fa-video-camera"></i>
+                        <span class="chart-row__link--video-text">Video</span>
+                    </a>
+                
+                                    <a href="javascript:void(0);" data-href="http://open.spotify.com/track/7L5jgZtAyfiU7elB8DIqCx" class="chart-row__link chart-row__link--spotify js-spotify-play-full" target="_blank" data-trackaction="Full Track Link - Spotify" data-tracklabel="Cake By The Ocean">
+                        <i class="chart-row__icon fa fa-spotify"></i> Full Track
+                    </a>
+                            </div>
+        </div>
+    </div>
+
+        <div id="chart-row-9-secondary" class="chart-row__secondary">
+        <div class="chart-row__stats">
+            <div class="chart-row__last-week">
+                <span class="chart-row__label">Last Week</span>
+                <span class="chart-row__value">12</span>
+            </div>
+            <div class="chart-row__top-spot">
+                    <span class="chart-row__label">Peak Position</span>
+                <span class="chart-row__value">9</span>            </div>
+            <div class="chart-row__weeks-on-chart">
+                <span class="chart-row__label">Wks on Chart</span>
+                <span class="chart-row__value">26</span>            </div>
+        </div>
+                <ul class="fa-ul chart-row__awards">
+                                                                <li class="chart-row__awards-item"><i class="chart-row__icon fa fa-li fa-dot-circle-o"></i> Gains in performance</li>
+                </ul>
+        <aside class="social-shares">
+            <p class="social-shares-text">Share the Song</p>
+        <a class="social-share social-share-facebook" rel="popup" data-width="400" data-height="450" data-tracklabel="Facebook-share" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.billboard.com%2Fcharts%2Fhot-100%23row-9">
+        <i class="fa fa-facebook"></i>
+    </a>
+    <a class="social-share social-share-twitter" rel="popup" data-width="400" data-height="450" data-tracklabel="Twitter-share" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.billboard.com%2Fcharts%2Fhot-100%23row-9&via=billboard&text=Cake%20By%20The%20Ocean%20on%20The%20Hot%20100">
+        <i class="fa fa-twitter"></i>
+    </a>
+</aside>
+    </div>
+    </article>
+            
