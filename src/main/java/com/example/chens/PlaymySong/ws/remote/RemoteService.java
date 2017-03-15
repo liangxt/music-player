@@ -14,9 +14,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 
-/**
- * Created by Songze Chen on 2016/4/14.
- */
 public class RemoteService extends Service {
     private final String urlString = "remote server url";
     private Toast toast;
