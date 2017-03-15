@@ -12,9 +12,6 @@ import com.example.chens.PlaymySong.ws.ListName;
 
 import java.util.ArrayList;
 
-/**
- * Created by Songze Chen on 2016/4/14.
- */
 public class LocalService extends Service {
     private MyLocalDB myLocalDB = new MyLocalDB(this);
 
