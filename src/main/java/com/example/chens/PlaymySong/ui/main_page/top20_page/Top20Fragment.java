@@ -14,9 +14,6 @@ import android.webkit.WebView;
 import com.example.chens.PlaymySong.R;
 
 
-/**
- * Created by Songze Chen on 2016/4/3.
- */
 
 public class Top20Fragment extends Fragment {
     private static final String APP_PACKAGE_NAME = "com.vibin.billy";
